@@ -1,0 +1,20 @@
+ref: "01"
+title: "Lesson 1: Azure AI Search"
+description_md: |
+  This module revisists Retrieval-Augmented Generation using Azure AI search instead of LangChain, including a high-level comparison of services. It will teach you about trade-offs in terms of cost, difficulty, and flexibilty.
+learning_objectives_md: |
+  - Understand the core features and capabilities of Azure AI Search
+  - Compate Azure AI Search with custom LangChain RAG Solutions
+  - Set up an Azure AI Search service and index basic data
+
+segments:
+  - type: text
+    path: 01-introduction.md
+  - type: text
+    path: 02-instructions.md
+  - type: video
+    path: 03-demo.md
+  - type: text
+    path: 04-summary.md
+  - type: assesment
+    path: 05-quiz.yaml
