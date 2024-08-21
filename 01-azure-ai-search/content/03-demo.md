@@ -8,7 +8,7 @@ short_description: |
   This video walks you through creating an Azure AI Search service and indexing basic data with an example using data about popular television shows.
 released: 2050-01-01
 # A link to a specific branch of the materials repo on GitHub
-materials_url: https://github.com/kodecocodes/m3-apapirag
+materials_url: https://github.com/kodecocodes/m3-raga-materials
 twitter_card_image: ~
 feature_banner: ~
 professional: false
