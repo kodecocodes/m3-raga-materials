@@ -1,17 +1,20 @@
- The first block of code you'll see are the package installation instructions. These use pip, they python package manager. The --quiet flag suppresses output, which is convenient in a Jupyter. If you want, you can run these commands in a terminal window without --quiet to see what goes on when a package is installed.
+The first block of code you'll see are the package installation instructions. These use 'pip', the Python package manager. 
 
- The next segment sets the API keys. Normally you want to keep these hidden in a config file or environment variable, but that is beyond the scope of this lesson.
+The --quiet flag suppresses output, which is convenient in a Jupyter. If you want, you can run these commands in a terminal window without --quiet to see what goes on when a package is installed.
+[TODO FPE: I'm not sure if ' --quiet ' is okay formatted like this in the text, or if it should be shown as inline code/other]
 
- Then, we create a search schema.
+The next segment sets the API keys. Normally, you want to keep these hidden in a `config` file or environment variable, but that's a little beyond the scope of this lesson.
 
- Next, we create the search index.
+Then, you'll create a search schema.
 
- In the following section, we assign some sample data (I generated it with ChatGPT) about television shows.
+After the search schema is created, you'll create the search index.
 
- Then, you can see the creation of the search client, and upload of the documents.
+In the following section, you'll assign some sample data about television shows (this example is generated with ChatGPT).
 
- Next, run an empty query to see all the documents in the index.
+Then, you can see the creation of the search client and upload of the documents.
 
- The exciting part of this lesson is here! This shows how to perform a term query.
+Next, run an empty query to see all the documents in the index.
 
- The last bit cleans up your created index. Make sure to shut down the services you created on Azure after you're done playing around. You dont incur any unexpected cloud fees!
+The exciting part of this lesson is here! How to perform a term query:
+
+The last bit cleans up your created index. Make sure to shut down the services you created on Azure after you're done playing around, so that you dont incur any unexpected cloud fees!
