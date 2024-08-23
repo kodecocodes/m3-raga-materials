@@ -42,7 +42,7 @@ The basic steps of setting up a search index are creating it, loading it with da
 
 To create a search, you'll be using the **Python API**, providing a way to organize the information you want to search. Then, you'll move your data into Azure by uploading JSON (alternatively, you can have Azure download your information from many Microsoft data storage solutions). Finally, you'll perform searches against your service (again, in Python for this example).
 
-Setting up a basic data index is pretty simple. After making sure you have the dependencies for Azure installed, and endpoints determined, you need to create an `AzureKeyCredential` from your search api key. Then, you need to make sure you're importing the correct items from the Azure dependencies installed with PIP for the rest of the script to work.
+Setting up a basic data index is pretty simple. After making sure you have the dependencies for Azure installed, and endpoints determined, you need to create an `AzureKeyCredential` from your search api key. Then, you need to make sure you're importing the correct items from the Azure dependencies installed with pip for the rest of the script to work.
 
 Next, it's time to create the `SearchIndexClient`, based on the endpoint and the `AzureKeyCredential` created. Fields for the index are set up after this, comprised of name-type pairs describing the fields your information will be organized into, and the types of information represented.
 
